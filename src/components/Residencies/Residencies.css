@@ -1,0 +1,18 @@
+.card-container{
+    padding: 1rem;
+    max-width: max-content;
+    gap: 0.8rem;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+}
+
+.card-container .primaryText{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.card-container .secondaryText{
+    font-size: 0.7rem;
+    font-weight: 300;
+    width: 240px;
+}
