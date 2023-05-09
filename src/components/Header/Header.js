@@ -1,11 +1,12 @@
 import React from 'react';
 import './Header.css'
+import logo1 from '../imgs/logo.png'
 
 const Header = () => {
   return (
-    <div className="main-header">
-      <div className="header-container paddings innerWidth flexCenter">
-        <img src="./imgs/logo.png" alt="logo" width={100}/>
+    <section className="main-header">
+      <div className="paddings innerWidth flexCenter header-container">
+        <img src={logo1} alt="logo" width={100}/>
         <div className="flexCenter menu">
           <a href="#">Residencies</a>
           <a href="#">Our Value</a>
@@ -16,7 +17,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -1,0 +1,19 @@
+.App{
+
+    position: relative;
+}
+
+.App div:first-child{
+    z-index: 1;
+}
+
+.white-gradient{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    top: 0;
+    left: 0;
+    background: #e4e4e48b;
+    z-index: -1;
+    filter: blur(100px);
+}
