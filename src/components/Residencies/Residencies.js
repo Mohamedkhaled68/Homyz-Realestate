@@ -1,8 +1,8 @@
 import React from 'react';
 import './Residencies.css';
-import {data} from  '../../slider';
+import {data} from  '../../Data/slider';
 import {Swiper, SwiperSlide, useSwiper} from 'swiper/react';
-import { settings } from '../../swiper-settings';
+import { settings } from '../../Data/swiper-settings';
 import SliderButtons from './slider-buttons/SliderButtons';
 
 const Residencies = () => {

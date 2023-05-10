@@ -1,0 +1,74 @@
+.main-value .value-container .img-container{
+    width: 28rem;
+    height: 35rem;
+    border-radius: 15rem 15rem 1rem 1rem;
+    overflow: hidden;
+    border: 8px solid rgba(117, 117, 117, 0.278);
+}
+
+.value-container{
+    gap: 9rem;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.value-container {
+    justify-content: space-between;
+}
+
+.value-title{
+    gap: 0.5rem;
+}
+
+
+.value-title .primaryText{
+    font-weight: 700;
+}
+
+.value-right{
+    flex: 1;
+}
+
+.accordion{
+    margin-top: 2rem;
+    border: none;
+}
+
+.accordionItem{
+    background: #fff;
+    border: 0.7px solid#dbdadaae;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 1.1rem;
+    padding: 0.4rem;
+}
+
+
+.accordionButton{
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem;
+}
+
+.accordionButton .icon{
+    color: var(--blue);
+    background: var(--lightBlue);
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.accordionButton .primaryText{
+    font-size: 1rem;
+}
+
+.accordionItem.expanded{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+

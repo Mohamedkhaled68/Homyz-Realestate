@@ -1,6 +1,6 @@
-import r1 from './components/imgs/r1.png'
-import r2 from './components/imgs/r2.png'
-import r3 from './components/imgs/r3.png'
+import r1 from '../components/imgs/r1.png'
+import r2 from '../components/imgs/r2.png'
+import r3 from '../components/imgs/r3.png'
 export const data = [
   {
     "name": "Aliva Priva Jardin",
