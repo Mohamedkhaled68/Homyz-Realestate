@@ -14,6 +14,7 @@ import { MdOutlineArrowDropDown } from 'react-icons/md';
 import './Value.css';
 
 const Value = () => {
+    const [className, setClassName] = useState(null);
     return (
         <div className="main-value">
             <div className="paddings innerWidth flexCenter value-container">
@@ -45,7 +46,6 @@ const Value = () => {
                         preExpanded={[0]}
                         >
                         {data.map((item, i) => {
-                                const [className, setClassName] = useState(null);
                             return (
                                 <AccordionItem
                                     className={`accordionItem ${className}`}
