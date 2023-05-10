@@ -1,18 +1,67 @@
+.main-residence{
+    position: relative;
+}
+
+.residence-container{
+    overflow-x: hidden;
+}
+
+
+.sec-title{
+    margin-bottom: 2rem;
+}
 .card-container{
-    padding: 1rem;
+    padding: 0.6rem;
     max-width: max-content;
-    gap: 0.8rem;
+    gap: 0.5rem;
     margin: auto;
     border-radius: 10px;
     transition: all 0.4s ease-in;
 }
 
+.card-container img{
+    width: 100%;
+    max-height: 11rem;
+}
+
+.card-container:hover{
+    cursor: pointer;
+    scale: 1.0255;
+    background: var(--lightBlue);
+    box-shadow: 0px 10px 10px #7f7f7f91;
+}
+
 .card-container .primaryText{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 .card-container .secondaryText{
     font-size: 0.7rem;
     font-weight: 300;
-    width: 240px;
+    width: 15rem;
+}
+
+.card-container .price span:nth-child(2){
+    font-size: 1.2rem;
+}
+
+.swiper-horizontal{
+    overflow: visible;
+}
+
+.btns{
+    position: absolute;
+    top: -17%;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btns button{
+    background: #fff;
+    color: blue;
+    padding: 4px 15px;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 10px #69696954;
 }
