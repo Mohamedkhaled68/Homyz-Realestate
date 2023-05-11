@@ -1,5 +1,6 @@
 import './App.css';
 import Contact from './components/Contact/Contact';
+import GetStarted from './components/GetStarted/GetStarted';
 import Header from './components/Header/Header.js';
 import Hero from './components/Hero/Hero';
 import Residencies from './components/Residencies/Residencies';
@@ -17,6 +18,7 @@ function App() {
                 <Residencies />
                 <Value />
                 <Contact />
+                <GetStarted/>
             </div>
         </div>
     );

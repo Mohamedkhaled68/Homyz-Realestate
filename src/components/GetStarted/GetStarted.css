@@ -1,0 +1,27 @@
+.board{
+    gap: 1.5rem;
+    background: var(--blue);
+    border-radius: 10px;
+    border: 8px solid var(--blue-gradient);
+    width: 100%;
+    padding: 2rem;
+    border: 5px solid rgba(136, 160, 255, 0.25);
+}
+
+.get-container .title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.get-container button{
+    border: 1.3px solid #fff;
+    border-radius: 7px;
+    background: rgba(136, 160, 255, 0.25);
+    padding: 0.6rem 1rem;
+}
+
+.get-container .des{
+    color : rgba(217, 217, 217, 0.78);
+    font-size: 0.8rem;
+}
