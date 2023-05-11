@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+li{
+    font-weight: 500;
+    font-size: 0.99rem;
+}
+
+.footer-container{
+    justify-content: space-between;
+}
+
+.footer-left .img-con{
+    width: 100px;
+}
+.footer-left .img-con img{
+    width: 100%;
+}
+
+.footer-right{
+    gap: 0.7rem;
+}
