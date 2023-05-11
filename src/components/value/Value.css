@@ -72,3 +72,8 @@
     border-radius: 6px;
 }
 
+.accordionPannle{
+    transition: all 0.4s;
+
+}
+

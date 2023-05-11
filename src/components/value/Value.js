@@ -1,20 +1,9 @@
-import React, { useState } from 'react';
 import valueImg from '../imgs/value.png';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-    AccordionItemState,
-} from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
-import data from '../../Data/accordion';
-import { MdOutlineArrowDropDown } from 'react-icons/md';
+import MyAccordion from './MyAccordion';
 import './Value.css';
 
 const Value = () => {
-    const [className, setClassName] = useState(null);
     return (
         <div className="main-value">
             <div className="paddings innerWidth flexCenter value-container">
@@ -40,47 +29,7 @@ const Value = () => {
                             </span>
                         </span>
                     </div>
-                    <Accordion
-                        className="accordion"
-                        allowMultipleExpanded={false}
-                        preExpanded={[0]}
-                        >
-                        {data.map((item, i) => {
-                            return (
-                                <AccordionItem
-                                    className={`accordionItem ${className}`}
-                                    key={i}
-                                    uuid={i}
-                                >
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton className="flexCenter accordionButton">
-                                            <AccordionItemState>
-                                                {({expanded})=> {
-                                                    expanded ? setClassName('expanded') : setClassName('collapsed')
-                                                }}
-                                            </AccordionItemState>
-                                            <div className="flexCenter icon">
-                                                {item.icon}
-                                            </div>
-                                            <span className="primaryText">
-                                                {item.heading}
-                                            </span>
-                                            <div className="flexCenter icon">
-                                                <MdOutlineArrowDropDown
-                                                    size={20}
-                                                />
-                                            </div>
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel className="accordionPannle">
-                                        <span className="secondaryText">
-                                            {item.detail}
-                                        </span>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                            );
-                        })}
-                    </Accordion>
+                    <MyAccordion/>
                 </div>
             </div>
         </div>
