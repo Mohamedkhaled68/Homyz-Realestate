@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <section className="main-header">
       <div className="paddings innerWidth flexCenter header-container">
-        <img src={logo1} alt="logo" width={100}/>
+        <img src={logo1} alt="logo"/>
         <div className="flexCenter menu">
           <a href="#">Residencies</a>
           <a href="#">Our Value</a>

@@ -6,13 +6,13 @@
     border: 8px solid rgba(117, 117, 117, 0.278);
 }
 
-.value-container{
-    gap: 9rem;
-}
 
 .img-container img{
     width: 100%;
     height: 100%;
+}
+.value-container{
+    gap: 9rem;
 }
 
 .value-container {

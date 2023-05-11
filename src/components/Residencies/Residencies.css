@@ -11,7 +11,7 @@
     margin-bottom: 2rem;
 }
 .card-container{
-    padding: 0.5rem;
+    padding: 0.5rem 0.55rem;
     max-width: max-content;
     gap: 0.5rem;
     margin: auto;
@@ -38,7 +38,7 @@
 .card-container .secondaryText{
     font-size: 0.7rem;
     font-weight: 300;
-    width: 14rem;
+    width: 13.5rem;
 }
 
 .card-container .price span:nth-child(2){

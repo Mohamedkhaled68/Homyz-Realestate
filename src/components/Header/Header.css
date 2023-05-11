@@ -27,3 +27,7 @@ a{
 button:hover{
     transform: scale(1.1);
 }
+
+.header-container img{
+    width: 100px;
+}
