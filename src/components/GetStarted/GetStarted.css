@@ -24,4 +24,20 @@
 .get-container .des{
     color : rgba(217, 217, 217, 0.78);
     font-size: 0.8rem;
+    text-align: center;
+}
+
+@media (max-width: 640px){
+    .get-container .title{
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .get-container .des{
+        color : rgba(217, 217, 217, 0.78);
+        font-size: 0.8rem;
+        text-align: center;
+    }
 }
