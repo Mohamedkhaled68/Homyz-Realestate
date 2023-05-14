@@ -24,3 +24,18 @@ li{
 .footer-right{
     gap: 0.7rem;
 }
+
+@media (max-width: 786px){
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-left{
+        align-items: center;
+    }
+    .footer-right{
+        align-items: center;
+    }
+}
