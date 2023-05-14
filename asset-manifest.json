@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Homyz-Realestate/static/css/main.9ea70874.css",
+    "main.js": "/Homyz-Realestate/static/js/main.0f4625b5.js",
+    "static/media/r3.png": "/Homyz-Realestate/static/media/r3.8fea7bcf1d27e8fc96eb.png",
+    "static/media/r1.png": "/Homyz-Realestate/static/media/r1.f4a079c7743f95427201.png",
+    "static/media/r2.png": "/Homyz-Realestate/static/media/r2.1fe4e12a28319d029d32.png",
+    "static/media/hero-image.png": "/Homyz-Realestate/static/media/hero-image.eade2b5f1b7c166cb16c.png",
+    "static/media/value.png": "/Homyz-Realestate/static/media/value.b619962bdea2621cbd6b.png",
+    "static/media/contact.jpg": "/Homyz-Realestate/static/media/contact.5e0194664deddac4b915.jpg",
+    "static/media/equinix.png": "/Homyz-Realestate/static/media/equinix.236399b3ed670db792cf.png",
+    "static/media/tower.png": "/Homyz-Realestate/static/media/tower.cc77e18f59771c7ad75b.png",
+    "static/media/prologis.png": "/Homyz-Realestate/static/media/prologis.e1c1031f09a0b81f98d9.png",
+    "static/media/realty.png": "/Homyz-Realestate/static/media/realty.11971af17bb2cc252199.png",
+    "index.html": "/Homyz-Realestate/index.html",
+    "main.9ea70874.css.map": "/Homyz-Realestate/static/css/main.9ea70874.css.map",
+    "main.0f4625b5.js.map": "/Homyz-Realestate/static/js/main.0f4625b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ea70874.css",
+    "static/js/main.0f4625b5.js"
+  ]
+}
