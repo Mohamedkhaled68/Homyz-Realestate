@@ -31,3 +31,37 @@ button:hover{
 .header-container img{
     width: 100px;
 }
+
+
+.menu-icon{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .menu-icon{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 5px;
+        color: var(--black);
+        top: 3rem;
+    }
+
+    .menu.hidden{
+        right: -100%;
+        transition: all 0.2s ease-in;
+    }
+    .menu.displayed{
+        right: 4rem;
+        transition: all 0.2s ease-out;
+    }
+
+    a{
+        font-size: 1.1rem;
+    }
+}

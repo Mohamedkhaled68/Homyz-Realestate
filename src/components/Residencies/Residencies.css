@@ -1,16 +1,15 @@
-.main-residence{
+.main-residence {
     position: relative;
 }
 
-.residence-container{
+.residence-container {
     overflow-x: hidden;
 }
 
-
-.sec-title{
+.sec-title {
     margin-bottom: 2rem;
 }
-.card-container{
+.card-container {
     padding: 0.5rem 0.55rem;
     max-width: max-content;
     gap: 0.5rem;
@@ -19,37 +18,37 @@
     transition: all 0.4s ease-in;
 }
 
-.card-container img{
+.card-container img {
     width: 100%;
     max-height: 11rem;
 }
 
-.card-container:hover{
+.card-container:hover {
     cursor: pointer;
     scale: 1.0255;
     background: var(--lightBlue);
     box-shadow: 0px 10px 10px #7f7f7f91;
 }
 
-.card-container .primaryText{
+.card-container .primaryText {
     font-size: 1.3rem;
     font-weight: 700;
 }
-.card-container .secondaryText{
+.card-container .secondaryText {
     font-size: 0.7rem;
     font-weight: 300;
     width: 13.5rem;
 }
 
-.card-container .price span:nth-child(2){
+.card-container .price span:nth-child(2) {
     font-size: 1.2rem;
 }
 
-.swiper-horizontal{
+.swiper-horizontal {
     overflow: visible;
 }
 
-.btns{
+.btns {
     position: absolute;
     top: -17%;
     right: 2rem;
@@ -58,10 +57,57 @@
     gap: 20px;
 }
 
-.btns button{
+.btns button {
     background: #fff;
     color: blue;
     padding: 4px 15px;
     font-size: 1.1rem;
     box-shadow: 0px 0px 10px #69696954;
+}
+
+@media (max-width: 768px) {
+    .btns {
+        position: absolute;
+        bottom: -130%;
+        /* right: 8.9rem; */
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sec-title {
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .residence-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        overflow: hidden;
+    }
+}
+@media (max-width: 640px) {
+    .btns {
+        position: absolute;
+        bottom: -130%;
+        right: 7.9rem;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sec-title {
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .residence-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        overflow: hidden;
+    }
 }

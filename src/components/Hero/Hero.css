@@ -78,3 +78,90 @@
 input::placeholder{
     font-size: 0.9rem;
 }
+
+@media (max-width: 1099px){
+    .main-hero{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+}
+@media (max-width: 967px){
+    .hero-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width: 786px){
+    .hero-container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-container{
+        width: 27rem;
+        height: 30rem;
+    }
+
+    .hero-left .hero-search{
+        justify-content: space-around;
+        padding: 0.5rem 0.6rem ;
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media (max-width: 640px){
+    input::placeholder{
+        color: #fff;
+    }
+    .main-hero{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .hero-container{
+        justify-content: center;
+        align-items: center;
+        padding-top: 5rem;
+    }
+
+    .img-container{
+        width: 20rem;
+        height: 30rem;
+    }
+    
+    .hero-left{
+        gap: 3rem;
+    }
+
+    .hero-left .hero-title h1{
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+    }
+    
+    
+    .hero-left .hero-des{
+        color: var(--secondary);
+        font-weight: 200;
+        font-size: 15px;
+        gap: 0.4rem;
+    }
+    
+    .hero-left .hero-search{
+        justify-content: space-around;
+        padding: 0.5rem 0.1rem ;
+        flex-wrap: nowrap;
+    }
+
+    .hero-left .hero-search input{
+        padding: 0.3rem;
+        max-width: 40%;
+    }
+
+    .hero-left .stats .stat span:first-child{
+        color: #fff;
+        font-size: 1.6rem;
+    }
+}

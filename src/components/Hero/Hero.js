@@ -4,6 +4,7 @@ import './Hero.css'
 import HeroImg from '../imgs/hero-image.png'
 import CountUp from 'react-countup'
 
+
 const Hero = () => {
   return (
     <section className="main-hero">
@@ -24,21 +25,21 @@ const Hero = () => {
           </div>
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
-              <span>
+              <span className="flexCenter">
                 <CountUp start={8000} end={9000} duration={6}/>
                 <span className='orangeText '>+</span>
               </span>
               <span className='secondaryText'>Premium Product</span>
             </div>
             <div className="flexColCenter stat">
-              <span>
+              <span className="flexCenter">
                 <CountUp start={1950} end={2000} duration={6}/>
                 <span className='orangeText '>+</span>
               </span>
               <span className='secondaryText'>Happy Customer</span>
             </div>
             <div className="flexColCenter stat">
-              <span>
+              <span className="flexCenter">
                 <CountUp end={28}/>
                 <span className='orangeText '>+</span>
               </span>
