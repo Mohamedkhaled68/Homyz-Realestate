@@ -201,6 +201,6 @@ input::placeholder{
 
     .hero-left .stats .stat span:first-child{
         color: #fff;
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 }

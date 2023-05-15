@@ -50,6 +50,7 @@ button:hover{
         border-radius: 5px;
         color: var(--black);
         top: 3rem;
+        z-index: 1000;
     }
 
     .menu.hidden{

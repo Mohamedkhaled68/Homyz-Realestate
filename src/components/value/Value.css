@@ -119,3 +119,24 @@
         line-height: 1px;
     }
 }
+
+
+@media (max-width: 400px) {
+    .main-value .value-container .img-container {
+        width: 18rem;
+        height: 28rem;
+    }
+    .value-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .accordionButton .primaryText {
+        font-size: 0.6rem;
+    }
+
+    .accordionPannle span {
+        font-size: 0.6rem;
+        line-height: 1px;
+    }
+}
