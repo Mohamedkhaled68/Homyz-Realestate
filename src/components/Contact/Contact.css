@@ -20,11 +20,13 @@
 
 .cards-container {
     margin-top: 2rem;
-    justify-content: flex-start;
-    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 
 .card {
+    min-width: 220px;
     align-items: center;
     background-color: #fff;
     padding: 0.7rem;
@@ -32,7 +34,6 @@
     border: 0.4px solid #e5e5e5;
     gap: 0.7rem;
     transition: all 0.4s ease-in;
-    flex-basis: 220px;
 }
 
 .card:hover {

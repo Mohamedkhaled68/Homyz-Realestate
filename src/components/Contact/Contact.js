@@ -18,14 +18,14 @@ const Contact = () => {
                             <span className="secondaryText">good blace to live can make your life better</span>
                         </div>
                     </div>
-                    <div className="flexCenter cards-container">
+                    <div className="cards-container">
                         <div className="card flexColCenter">
                             <div className="flexCenter details">
                                 <div className="flexCenter icon">
                                     <MdCall size={20}/>
                                 </div>
                                 <div className="flexColStart text">
-                                    <span className='primaryText'>call</span>
+                                    <span className='primaryText'>Call</span>
                                     <span className="secondaryText">
                                         021 123 145 14
                                     </span>
