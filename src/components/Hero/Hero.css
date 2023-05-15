@@ -189,16 +189,6 @@ input::placeholder{
         gap: 0.4rem;
     }
     
-    .hero-left .hero-search{
-        justify-content: space-around;
-        padding: 0.5rem 0.2rem ;
-        flex-wrap: wrap;
-    }
-
-    .hero-left .hero-search input{
-        padding: 0.3rem;
-    }
-
     .hero-left .stats .stat span:first-child{
         color: #fff;
         font-size: 1rem;
