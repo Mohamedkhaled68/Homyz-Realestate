@@ -160,6 +160,11 @@ input::placeholder{
 
 
 @media (max-width: 400px){
+
+    .hero-left .hero-search{
+        background-color: #fff;
+        padding: 0.5rem 0.1rem;
+    }
     .main-hero{
         padding-left: 1rem;
         padding-right: 1rem;
@@ -176,25 +181,21 @@ input::placeholder{
         height: 26rem;
     }
     
-    .hero-left{
-        gap: 3rem;
-    }
-
-    .hero-left .hero-title h1{
-        font-size: 2.5rem;
-        line-height: 2.9rem;
-    }
-    
-    
-    .hero-left .hero-des{
-        color: var(--secondary);
-        font-weight: 200;
-        font-size: 15px;
-        gap: 0.4rem;
-    }
-    
     .hero-left .stats .stat span:first-child{
         color: #fff;
         font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 300px){
+    .main-hero{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .hero-left .hero-search{
+        background-color: #fff;
+        padding: 0.5rem 0.1rem;
     }
 }
